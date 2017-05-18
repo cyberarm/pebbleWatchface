@@ -1,0 +1,29 @@
+{
+    "author": "matthewlikesrobots@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "servicemonitor",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "health"
+        ],
+        "displayName": "ServiceMonitor",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "rocky",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "43dc0a42-bef6-4691-a5f1-08e85fad1302",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
